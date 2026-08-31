@@ -1,0 +1,177 @@
+html {
+	margin: 0;
+	font-family: "Trebuchet MS";
+	font-size: 0.9em;
+	color: #333;	
+	height: 100%;	
+}
+
+body {background: url(../images/fondo_web.jpg);}
+
+h1 {
+	font-size: 1.3em;	
+}
+
+h2{
+	font-size: 1.2em;		
+}
+
+a:hover{
+	color: red;
+}
+
+.right{
+text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+legend{
+	font-weight: bold;
+	font-size: 1.em;
+}
+.right {float:right}
+.left {float:left}
+.oculto {display: none}
+.block {display: block !important}
+
+/* general */
+
+#menu, #contenido, #body {margin: 0 auto; width: 960px;}
+#body{background: url(../images/flamesofwar_bg_theme.jpg); padding: 10px; border: 1px solid #333}
+h1 {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #FFFFFF; background: #777; padding: 2px 15px; width: 930px;}
+h2 {font-size: 1.1em}
+
+
+/* MENU */
+#menu { display: block; background: #333; height: 40px; color: #FFF;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #FFFFFF;}
+#menu-superior { list-style: none; margin-left: -35px;}
+#menu-superior li {float: left; margin-right: 10px; display: block; cursor:pointer; height: 30px;  padding: 5px 0px;}
+#menu-superior li a, #menu-superior li a:hover {text-decoration:none}
+#menu-superior a {text-decoration: none; color: #FFF; padding: 5px 30px; display: block; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#menu-superior a:hover {color: #CCC; background: #777;}
+.menu-activo {color: #CCC; background: #777;}
+
+/* CABECERA */
+.navbar { background: url(../images/bg_header.gif); padding-top: 1px}
+
+/* FOOTER */
+.right-footer { text-align: right;}
+.right-footer a {font-size: 0.8em; text-decoration: none; color:#333}
+.right-footer a:hover {text-decoration: underline;}
+
+/* contenido */
+#contenido{clear:both; }
+#leyenda  {height: 100px}
+#leyenda .msj-leyenda {font-size: 11px; clear:both; font-style: italic}
+#leyenda ul {list-style: none; float: left; margin-top: -20px}
+#leyenda ul li {font-size: 11px; display: block; clear:both; margin: 10px 0px}
+#leyenda ul li img { float: left; margin-right: 10px}
+#btnAltaBanner {width:100%; text-align: right; margin-top: 10px}
+.btnLogin {float: left !important; margin: 20px 0px 0px 110px}
+.btn-form {display: block; background: #333; padding: 5px 10px; float: right; color: #CCC; text-decoration: none;
+-moz-border-radius: 5px; border-radius: 5px; background:#333; margin-left: 10px; }
+.btn-form:hover {background: #777; color:#FFF}
+.filtro-fechas {float: right; margin: 15px 0px}
+
+/* forms */
+.inputError {color: #FFF; background: #F75155;}
+.inputNormal {color: #000; background: #FFF}
+
+.msj-perfil, .msj-perfil-100 {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px; width: 918px; background: #fac547; margin-bottom: 10px; padding-left: 10px}
+.msj-perfil-100 { width: 945px !important}
+.lbl-desc {display: block; width: 340px !important; float: left}
+.logo-editar {float: left; clear:both; width: 100%; padding-left: 30px}
+.msj-pagos {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px; width: 945px; background: #f7f6f6; margin-bottom: 10px; padding-left: 10px}
+
+
+
+/* datos */
+.listado-banner { font-size: 12px; border-collapse: collapse; width: 100%; }
+.listado-banner .cabecera { background-color: #f7f6f6;  }
+.listado-banner th { border: 0px; font-size: 12px; padding: 5px; text-align: left; }
+.listado-banner td { padding: 10px 0px; border-bottom: 1px solid #f7f6f6; }
+
+.fieldset, .fieldset-clave  { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.fieldset legend, .fieldset-clave legend { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f7f6f6; padding: 5px 10px; }
+.perfil-left, perfil-right {float: left; width: 50%}
+.perfil-left textarea, .textarea { font-family: arial; font-size: 13px}
+.perfil-total {width: 100%; clear:both; margin-top: 10px; }
+.fieldset .labelBold, .lbl-bold {font-weight: bold; display: block; width: 100px; float: left; text-align: right; margin-right: 10px; margin-top: 5px;}
+.fieldset .lbl-txt { display: block; width: 100px; float: left;margin-right: 10px; margin-top: 5px;}
+.msj-pagos .lbl-txt {display: block; width: 400px; float: left;margin-right: 10px; margin-top: 5px;}
+.fieldset input, .fieldset select {margin-top: 5px;}
+.fieldset-clave label {font-weight: bold; display: block; width: 150px; float: left; text-align: right; margin-right: 10px; margin-top: 5px;}
+.fieldset-clave input {margin-top: 5px}
+.fieldset-clave .btnSubmit {margin-left: 156px} 
+.fieldset label {float: left}
+.boton {-moz-border-radius: 5px; border-radius: 5px; background:#333; color: #CCC; padding:10px; text-decoration: none;  display: block; min-width: 130px;
+text-align: center; float: right }
+.boton:hover  {background: #777; color:#FFF}
+
+/*errores*/
+#errores, #erroresFile{-moz-border-radius: 5px; border-radius: 5px; padding: 5px 60px; color:#FFF; margin: 10px 0px; background: #c85354 url(../images/error.png) left no-repeat;display: none; }
+#erroresFile {display: block !important;}
+.color-rojo {background: #c85354 ; color: #FFF}
+#ok , #okGrabar {-moz-border-radius: 5px; border-radius: 5px; padding: 5px 60px; color:#FFF; margin: 10px 0px; background: #9cde66 url(../images/icon-ok.png) left no-repeat; }
+#okGrabar a {text-decoration: none; color: #188f01}
+#okGrabar a:hover {text-decoration: underline;}
+.p-login,.p-register { margin:5px; }
+
+.p-login label, .p-register label{
+	display: block;
+	float: left;
+	text-align:right;
+	margin-right: 35px;	
+}
+
+.p-login label{
+	width:50px;	
+	margin-left: 10px;
+
+}
+
+.p-register label{
+	width:130px;
+
+}
+
+.mark{
+	background: #ACCC11;
+}
+
+.error{
+	margin: 10px auto 10px auto;
+	width: 90%;
+	height: 50px;
+	background: red;
+	border: 1px solid #AC1111;
+	color: white;
+	padding: 5px;
+	vertical-align:middle;
+}
+.error img{
+	float: left;
+	vertical-align: middle;
+	padding: 0 10px 0 10px;
+}
+
+.div-calendario {position:absolute;visibility:hidden; background-color: #f7f6f6; layer-background-color:white;}
+div-calendario a {text-decoration: none; display: block; padding: 2px; text-align: center; color:#999}
+div-calendario a:hover {background: #d4f356; color: #333;}
+
+/* stats */
+#tabs-1 div, #tabs-2 div, #tabs-3 div,#tabs-4 div{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f7f6f6; padding: 10px; color: #333; margin: -5px -10px}
+.resumenStats {border: 0px;}
+.resumenStats th {background: #e8e6e6;}
+.resumenStats td {width: 180px;}
+.resumen-periodo-ant{color: #999;}
+.resumen-green {color: green; font-style:italic;}
+.resumen-red {color: red; font-style:italic;}
+.inputFecha {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f7f6f6; padding-left: 10px; width: 75px}

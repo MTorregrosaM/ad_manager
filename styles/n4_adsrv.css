@@ -1,0 +1,107 @@
+html {
+	margin: 0;
+	font-family: "Trebuchet MS";
+	font-size: 0.9em;
+	color: #333;	
+	height: 100%;	
+}
+
+h1 {
+	font-size: 1.3em;	
+}
+
+h2{
+	font-size: 1.2em;		
+}
+
+a:hover{
+	color: red;
+}
+
+.right{
+text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+legend{
+	font-weight: bold;
+	font-size: 1.em;
+}
+
+#div-content, #div-footer, #div-login {
+	width: 900px;
+	margin:0 auto 0 auto;
+}
+
+#div-login {
+	width: 240px;
+	text-align: center;
+	border: 1px solid #ccc;
+	}
+
+#div-footer{	
+	font-size: 0.8em;
+	text-align: right;
+}
+
+#div-footer a, #div-footer a:visited, #div-footer a:link{
+	text-decoration: none;
+	color:#666;
+}
+#div-footer a:hover{
+	color: red;
+	}
+#div-footer span{
+	color: #999;
+}
+
+
+
+.p-login,.p-register {
+margin:5px;	
+}
+
+.p-login label, .p-register label{
+	display: block;
+	float: left;
+	text-align:right;
+	margin-right: 10px;	
+}
+
+.p-login label{
+	width:50px;	
+	margin-left: 10px;
+
+}
+
+.p-register label{
+	width:130px;
+
+}
+
+.mark{
+	background: #ACCC11;
+}
+
+.error{
+	margin: 10px auto 10px auto;
+	width: 90%;
+	height: 50px;
+	background: red;
+	border: 1px solid #AC1111;
+	color: white;
+	padding: 5px;
+	vertical-align:middle;
+}
+.error img{
+	float: left;
+	vertical-align: middle;
+	padding: 0 10px 0 10px;
+}

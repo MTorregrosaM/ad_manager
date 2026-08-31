@@ -1,0 +1,37 @@
+body { font: 1em Arial; }
+
+/* Datagrid Table */
+table.tbl { width: 100%; font-size:0.8em; clear: both; }
+td.tbl-header { background: #555  url(../images/head_bg.jpg); text-align: center; padding: 7px 3px; font-weight: bold; border-bottom: 2px solid #ccc; }
+tr.tbl-footer {}
+td.tbl-header a, td.tbl-cell a {text-decoration: none; color: #000}
+td.tbl-header a:hover, td.tbl-cell a:hover {text-decoration: underline; color: #555}
+table.tbl-footer { font-size: 1em;}
+tr.tbl-row { }
+tr.tbl-row:hover { background: #d4f356; } /* Old color: #E9E9E9 */
+tr.tbl-row-even {  }
+tr.tbl-row-odd { background: #f7f6f6; }
+tr.tbl-row-highlight:hover { background: #fffba6; cursor: pointer; }
+td.tbl-nav { background: url(../images/head_bg.jpg); height: 20px; border-top: 2px solid #cCc; color: #777; }
+td.tbl-nav a{color: #777; text-decoration: none}
+td.tbl-nav a:hover{color: #d4f356; text-decoration: underline}
+td.tbl-pages { text-align: center; }
+td.tbl-row-num { text-align: right; }
+td.tbl-cell { padding: 5px;}
+td.tbl-controls { text-align: center; }
+td.tbl-found {}
+td.tbl-checkall {}
+td.tbl-page { text-align: right; }
+td.tbl-noresults { font-weight: bold; color: #9F0000; height: 45px; text-align: center; }
+span.tbl-reset { margin: 5px 5px; }
+img.tbl-reset-image { margin-right: 5px; border: 0; }
+span.tbl-create { margin: 5px 0; }
+img.tbl-create-image { margin-right: 5px; border: 0; }
+div.tbl-filter-box {}
+img.tbl-arrows { border: 0; }
+img.tbl-order-image { margin: 0 2px; border: 0; }
+img.tbl-filter-image { border: 0; }
+img.tbl-control-image { border: 0; }
+span.page-selected { color: #000; font-weight: bold; }
+input.tbl-checkbox {}
+ div.pChartPicture { border: 0px; }
